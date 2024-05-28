@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Achievement Argentina</title>
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.5Z5L4KvD1JZAbdngN7OfYwHaH3?rs=1&pid=ImgDetMain">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="container-fluid"> 
+        <div>
+            <img src="./imagenes/logo.png" alt="Logotipo de Junior Achievement">
+        </div>
+        <nav>
+            <ul>
+                <a href="https://junior.org.ar/"><li>HOME</li></a>
+                <a href="#presentacion"><li>NOSOTROS</li></a>
+                <a href="https://junior.org.ar/inscripciones/"><li>INSCRIPCIONES</li></a>
+                <a href="https://junior.org.ar/novedades/"><li>NOVEDADES</li></a>
+                <a href="https://junior.org.ar/alumni/"><li>ALUMNI</li></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenedor-sup">
+        <h1>QUIÉNES SOMOS</h1>
+        <p id="presentacion">
+            Somos una de las ONG más grandes del mundo.  A través del aprendizaje activo en educación financiera, formación para el trabajo y emprendimiento, preparamos e inspiramos a los jóvenes para que sean protagonistas de su futuro.
+        </p>
+        <button class="bg-success" onclick='ocultarTexto("presentacion")' form="presentacion">
+            +
+        </button>
+    </div>
+    <div class="contenedor">
+        <div class="caja">
+            <img class="caja_img" src="./imagenes/desafio.jpg" alt="el desafío">
+            <h1>EL DESAFÍO</h1>
+            <p class="caja_p">Insertos en la cuarta revolución industrial, la tecnología irrumpe en todos los ámbitos de la vida: aparecen la robótica, la biotecnología, la inteligencia artificial. Desaparecen profesiones y surgen nuevas.  </p>
+        </div>
+        <div class="caja">
+            <img class="caja_img" src="./imagenes/solucion.jpg" alt="la solución">
+            <h1>LA SOLUCIÓN</h1>
+            <p class="caja_p">Desde hace 100 años, promovemos una actitud emprendedora en millones de jóvenes para que se sientan protagonistas y emprendedores de sus propias vidas.</p>
+        </div>
+        <div class="caja">
+            <img class="caja_img" src="./imagenes/impacto.jpg" alt="el impacto">
+            <h1>IMPACTO</h1>
+            <p class="caja_p">Trabajamos en cientos de escuelas cada año formando a miles de jóvenes para que estén mejor preparados para el futuro. </p>
+        </div>
+    </div>
+    <div id="iframes" class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0545070419303!2d-58.467185624259834!3d-34.602783172954574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33533433603c1%3A0x45810ad3a92f29c7!2sJunior%20Achievement%20Argentina!5e0!3m2!1ses-419!2shn!4v1715790174350!5m2!1ses-419!2shn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/CAvju4e-EPk?si=7KtA2KBicrl2v02l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-3 caja-inf">
+                <img class="caja_img" src="./imagenes/perfil.jpg" alt="Creadora">
+                <p>Desarrolladora del proyecto: <br> Kattherine Mayely Hernandez Sambula</p>
+            </div>
+            <div class="col-lg-4 col-md-3 caja-inf">
+                <img class="caja_img" src="./imagenes/logos-UNAH-12.png" alt="logo-is">
+                <p>Ella es pasante de la carrera de Ingeniería en Sistemas en la UNAH.</p>
+            </div>
+            <div class="col-lg-4 col-md-3 caja-inf">
+                <img class="caja_img" src="./imagenes/logo-md.png" alt="logo-md">
+                <p>Desarrollado como proyecto de final de curso de Introducción al Coding en el programa Mujer Digital.</p>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <p>
+            Conocé nuestra Política de privacidad | ©2022 Junior Achievement Argentina. Todos los derechos reservados.
+        </p>
+    </footer>
+    <script type="text/javascript" src="./controller.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html> 
